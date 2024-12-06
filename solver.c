@@ -1,6 +1,6 @@
 #include "nqueens.h"
 
-// Solve the N-Queens problem recursively
+//Solve the N-Queens problem recursively
 bool solve_nqueens_util(int board[], int col, int n) {
     if (col >= n) {
         print_board(board, n); // Print the current solution
